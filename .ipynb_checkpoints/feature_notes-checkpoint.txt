@@ -1,0 +1,11 @@
+to drop
+- OBJECTID
+- SERIALNO
+- PUMA: Area codes, probably not needed
+
+Flag variables? 
+- Used to mark data quality
+    - ELEFP
+    - WATFP
+    - FULFP
+    - GASFP
