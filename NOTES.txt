@@ -1,0 +1,45 @@
+to drop
+
+'RWAT', 'SINK', 'PLM', 'GRNTP', 'STOV', 'HUGCL', 'HUPAOC', 'HUPARC', 'NRC', 'R60'
+
+NOTE - Target features were likely derived from existing features. 
+	AFF_OCC: 'RNTP', 'GRNTP'
+	COST_BURDALL: 'GRPIP'
+	AMI: 'HINCP'
+	
+	
+	
+Streamlit Layout?
+
+Introduction Section
+	- Motivation
+	- Goal
+	- Soft Data Introduction
+Exploration Section
+	- Interactive plots
+		Histogram of single feature
+			Allow color to be changed to various targets
+		Scatter of two features
+			Allow color to be changed based on targets
+			Simple regression on given features too???
+		Heatmap
+			select subset of features to compare
+		Other simple plots??
+	- Include notes on how to interpret each?
+	- Use cleaned or uncleaned data?
+	- Need to allow value acronyms to be converted on the spot OR convert them already
+Model Analysis
+	- Allow for users to predict rent based on subset of features
+		- paired with plots?
+	- Allow users to predict if cost burdened based on features	
+		- paired with plots?
+	- Allow users to determine if a house is considered affordable based on features
+	-	- paired with plots?
+	- Analysis of Classification on COSTBURD_ALL
+	- Analysis of Regression on rent
+	- Analysis of Regression on affordability
+Conclusion
+	
+Data Dictionary
+	- Hard data introduction
+	- Pre-processing Methods
