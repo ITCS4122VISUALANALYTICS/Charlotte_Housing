@@ -1,6 +1,10 @@
 import pandas as pd
 #Data Dictionary Lookup Functions
-data_dict = pd.read_csv('data_sets/data_dictionary.csv')
+try:
+    data_dict = pd.read_csv('data_sets/data_dictionary.csv')
+except:
+    data_dict = pd.read_csv('../data_sets/data_dictionary.csv')
+    
 #sort to optimize lookup performance
 data_dict = data_dict.sort_index() 
 cols = data_dict.columns

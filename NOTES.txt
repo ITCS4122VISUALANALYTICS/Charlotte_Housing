@@ -38,8 +38,13 @@ Model Analysis
 	- Analysis of Classification on COSTBURD_ALL
 	- Analysis of Regression on rent
 	- Analysis of Regression on affordability
+    - Clustering
+        - Interactive PCA of Clusters
+        - Allow Cluster encoding on Exploration plots
 Conclusion
 	
 Data Dictionary
 	- Hard data introduction
 	- Pre-processing Methods
+	- Data lookup tool
+	
