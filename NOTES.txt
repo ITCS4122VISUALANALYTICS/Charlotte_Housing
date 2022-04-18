@@ -41,6 +41,7 @@ Model Analysis
     - Clustering
         - Interactive PCA of Clusters
         - Allow Cluster encoding on Exploration plots
+        - Interactive descriptive analysis of clusters
 Conclusion
 	
 Data Dictionary
