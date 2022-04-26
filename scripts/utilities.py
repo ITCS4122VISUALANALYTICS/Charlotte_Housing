@@ -137,6 +137,8 @@ def get_datatype(feat):
     try:
         if feat == 'HFL': # accounting for an error in the data dictionary
             return 'C'
+        if feat == 'Cluster':
+            return 'C'
         if feat not in others:
             t = data_dict.loc['NAME', feat]['NAME'][0]
         else:

@@ -15,6 +15,8 @@ Introduction Section
 	- Motivation
 	- Goal
 	- Soft Data Introduction
+Overview Section
+    Plots that show specific insights
 Exploration Section
 	- Interactive plots
 		Histogram of single feature
@@ -24,6 +26,8 @@ Exploration Section
 			Simple regression on given features too???
 		Heatmap
 			select subset of features to compare
+        Radial Chart
+            - https://altair-viz.github.io/gallery/radial_chart.html
 		Other simple plots??
 	- Include notes on how to interpret each?
 	- Use cleaned or uncleaned data?
@@ -49,3 +53,18 @@ Data Dictionary
 	- Pre-processing Methods
 	- Data lookup tool
 	
+
+
+
+What contributes to cost burdened status?
+
+What contributes to the affordability?
+
+What contributes to price of rent?
+
+How is the data naturally clustered?
+
+TODO:
+    - Create dictionary function to convert raw values to strings from dictionary
+    - Start to think about limiting feature selection for sandbox, for usability
+    - 

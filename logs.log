@@ -331,3 +331,255 @@
 2022-04-13 07:49:33,932:WARNING:Couldn't import catboost.CatBoostRegressor
 2022-04-13 07:49:34,077:WARNING:Couldn't import xgboost.XGBRegressor
 2022-04-13 07:49:34,078:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:07:12,246:INFO:Initializing load_config()
+2022-04-22 09:07:12,246:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:07:12,252:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:07:12,252:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:07:12,252:INFO:load_config() succesfully completed......................................
+2022-04-22 09:07:12,340:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:07:12,341:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:07:12,427:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:07:12,427:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:16:29,654:INFO:Initializing load_config()
+2022-04-22 09:16:29,654:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:16:29,663:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:16:29,663:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:16:29,663:INFO:load_config() succesfully completed......................................
+2022-04-22 09:16:29,760:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:16:29,761:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:16:29,855:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:16:29,856:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:23,586:INFO:Initializing load_config()
+2022-04-22 09:18:23,587:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:18:23,596:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:18:23,596:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:18:23,596:INFO:load_config() succesfully completed......................................
+2022-04-22 09:18:23,713:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:23,713:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:23,815:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:23,815:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:30,334:INFO:Initializing load_config()
+2022-04-22 09:18:30,334:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:18:30,341:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:18:30,342:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:18:30,342:INFO:load_config() succesfully completed......................................
+2022-04-22 09:18:30,449:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:30,450:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:30,553:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:30,554:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:34,855:INFO:Initializing load_config()
+2022-04-22 09:18:34,855:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:18:34,864:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:18:34,864:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:18:34,864:INFO:load_config() succesfully completed......................................
+2022-04-22 09:18:34,963:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:34,964:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:35,064:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:35,065:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:46,097:INFO:Initializing load_config()
+2022-04-22 09:18:46,097:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:18:46,106:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:18:46,106:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:18:46,106:INFO:load_config() succesfully completed......................................
+2022-04-22 09:18:46,209:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:46,210:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:46,305:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:46,305:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:50,550:INFO:Initializing load_config()
+2022-04-22 09:18:50,551:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:18:50,558:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:18:50,559:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:18:50,559:INFO:load_config() succesfully completed......................................
+2022-04-22 09:18:50,655:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:50,655:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:50,747:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:50,748:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:53,395:INFO:Initializing load_config()
+2022-04-22 09:18:53,395:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:18:53,410:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:18:53,410:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:18:53,410:INFO:load_config() succesfully completed......................................
+2022-04-22 09:18:53,510:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:53,511:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:53,611:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:53,612:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:58,936:INFO:Initializing load_config()
+2022-04-22 09:18:58,937:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:18:58,950:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:18:58,951:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:18:58,951:INFO:load_config() succesfully completed......................................
+2022-04-22 09:18:59,050:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:59,051:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:18:59,149:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:18:59,150:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:20:00,236:INFO:Initializing load_config()
+2022-04-22 09:20:00,236:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:20:00,244:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:20:00,244:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:20:00,244:INFO:load_config() succesfully completed......................................
+2022-04-22 09:20:00,361:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:20:00,361:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:20:00,459:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:20:00,459:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:20:06,862:INFO:Initializing load_config()
+2022-04-22 09:20:06,863:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:20:06,871:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:20:06,872:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:20:06,872:INFO:load_config() succesfully completed......................................
+2022-04-22 09:20:06,973:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:20:06,973:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:20:07,070:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:20:07,070:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:22:57,422:INFO:Initializing load_config()
+2022-04-22 09:22:57,422:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:22:57,429:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:22:57,429:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:22:57,430:INFO:load_config() succesfully completed......................................
+2022-04-22 09:22:57,539:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:22:57,540:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:22:57,636:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:22:57,636:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:23:02,047:INFO:Initializing load_config()
+2022-04-22 09:23:02,048:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:23:02,054:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:23:02,055:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:23:02,055:INFO:load_config() succesfully completed......................................
+2022-04-22 09:23:02,152:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:23:02,153:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:23:02,251:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:23:02,252:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:23:03,556:INFO:Initializing load_config()
+2022-04-22 09:23:03,556:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:23:03,565:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:23:03,565:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:23:03,565:INFO:load_config() succesfully completed......................................
+2022-04-22 09:23:03,665:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:23:03,665:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:23:03,766:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:23:03,767:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:23:14,850:INFO:Initializing load_config()
+2022-04-22 09:23:14,850:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:23:14,856:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:23:14,856:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:23:14,857:INFO:load_config() succesfully completed......................................
+2022-04-22 09:23:14,958:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:23:14,958:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:23:15,056:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:23:15,056:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:23:20,073:INFO:Initializing load_config()
+2022-04-22 09:23:20,074:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:23:20,082:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:23:20,083:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:23:20,083:INFO:load_config() succesfully completed......................................
+2022-04-22 09:23:20,181:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:23:20,182:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:23:20,278:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:23:20,279:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:27:48,913:INFO:Initializing load_config()
+2022-04-22 09:27:48,914:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:27:48,923:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:27:48,923:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:27:48,924:INFO:load_config() succesfully completed......................................
+2022-04-22 09:27:49,028:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:27:49,029:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:27:49,131:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:27:49,131:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:42:06,216:INFO:Initializing load_config()
+2022-04-22 09:42:06,216:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:42:06,223:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:42:06,223:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:42:06,224:INFO:load_config() succesfully completed......................................
+2022-04-22 09:42:06,322:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:42:06,322:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:42:06,416:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:42:06,417:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:42:11,144:INFO:Initializing load_config()
+2022-04-22 09:42:11,145:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:42:11,153:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:42:11,153:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:42:11,153:INFO:load_config() succesfully completed......................................
+2022-04-22 09:42:11,256:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:42:11,257:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:42:11,357:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:42:11,358:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:42:13,204:INFO:Initializing load_config()
+2022-04-22 09:42:13,205:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:42:13,213:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:42:13,213:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:42:13,214:INFO:load_config() succesfully completed......................................
+2022-04-22 09:42:13,321:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:42:13,322:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:42:13,429:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:42:13,430:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:45:11,393:INFO:Initializing load_config()
+2022-04-22 09:45:11,393:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:45:11,401:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:45:11,401:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:45:11,401:INFO:load_config() succesfully completed......................................
+2022-04-22 09:45:11,513:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:45:11,513:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:45:11,610:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:45:11,611:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:45:52,511:INFO:Initializing load_config()
+2022-04-22 09:45:52,511:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:45:52,518:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:45:52,519:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:45:52,519:INFO:load_config() succesfully completed......................................
+2022-04-22 09:45:52,617:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:45:52,617:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:45:52,709:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:45:52,710:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:46:08,387:INFO:Initializing load_config()
+2022-04-22 09:46:08,388:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:46:08,397:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:46:08,398:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:46:08,398:INFO:load_config() succesfully completed......................................
+2022-04-22 09:46:08,502:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:46:08,503:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:46:08,606:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:46:08,607:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:46:19,814:INFO:Initializing load_config()
+2022-04-22 09:46:19,815:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:46:19,822:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:46:19,822:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:46:19,822:INFO:load_config() succesfully completed......................................
+2022-04-22 09:46:19,925:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:46:19,925:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:46:20,024:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:46:20,025:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:52:09,829:INFO:Initializing load_config()
+2022-04-22 09:52:09,831:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:52:09,842:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:52:09,842:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:52:09,843:INFO:load_config() succesfully completed......................................
+2022-04-22 09:52:09,947:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:52:09,948:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:52:10,047:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:52:10,048:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:53:47,684:INFO:Initializing load_config()
+2022-04-22 09:53:47,684:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:53:47,693:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:53:47,693:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:53:47,693:INFO:load_config() succesfully completed......................................
+2022-04-22 09:53:47,793:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:53:47,794:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:53:47,889:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:53:47,890:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:54:31,879:INFO:Initializing load_config()
+2022-04-22 09:54:31,879:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:54:31,888:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:54:31,888:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:54:31,889:INFO:load_config() succesfully completed......................................
+2022-04-22 09:54:31,999:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:54:32,000:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:54:32,096:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:54:32,096:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:54:40,063:INFO:Initializing load_config()
+2022-04-22 09:54:40,063:INFO:load_config(file_name=notebooks/rf_config)
+2022-04-22 09:54:40,070:INFO:Global variables loaded from notebooks/rf_config
+2022-04-22 09:54:40,071:INFO:Global variables set to match those in notebooks/rf_config
+2022-04-22 09:54:40,071:INFO:load_config() succesfully completed......................................
+2022-04-22 09:54:40,183:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:54:40,184:WARNING:Couldn't import catboost.CatBoostRegressor
+2022-04-22 09:54:40,292:WARNING:Couldn't import xgboost.XGBRegressor
+2022-04-22 09:54:40,293:WARNING:Couldn't import catboost.CatBoostRegressor
