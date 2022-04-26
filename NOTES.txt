@@ -33,6 +33,7 @@ Exploration Section
 	- Use cleaned or uncleaned data?
 	- Need to allow value acronyms to be converted on the spot OR convert them already
 Model Analysis
+    Summarize results of models in a single interactive plot... (feature importance)
 	- Allow for users to predict rent based on subset of features
 		- paired with plots?
 	- Allow users to predict if cost burdened based on features	
