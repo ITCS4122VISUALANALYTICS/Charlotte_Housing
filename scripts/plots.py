@@ -9,11 +9,7 @@ df, cost_burd_results = load_data()
 
 #Basic histogram for exploration
 def histogram(column, target, bin_feat):
-    try:
-        types = [DATA_TYPES_ALTAIR[get_datatype(x)] for x in [column, target]]
-    except:
-        inv_dic = generate_inverse_dictionary()
-        types = [DATA_TYPES_ALTAIR[get_datatype(inv_dic[x])] for x in [column, target]]
+    types = [DATA_TYPES_ALTAIR[get_datatype(x)] for x in [column, target]]
     hist = alt.Chart(df).mark_bar().encode(
         alt.X(column, type = types[0], bin=bin_feat),
         alt.Y('count()'),
@@ -34,13 +30,14 @@ def scatter(col1, col2, target):
 #Polar histogram for PUMA section
 def puma_polar(column):
     PUMA = 'PUMA'
+    dtype = 'N'
     temp_df = copy.deepcopy(df)
     temp_df[PUMA].replace(PUMA_CODES, inplace=True)
     
     base = alt.Chart(temp_df).encode(
-        theta=alt.Theta(PUMA+":N", stack=True),
+        theta=alt.Theta(PUMA+dtype, stack=True),
         radius=alt.Radius('mean('+column+')', type='quantitative'),
-        color= PUMA+":N",
+        color= PUMA+dtype,
     ).properties(title = column + ' vs PUMA Area Code')
     
     c1 = base.mark_arc(innerRadius=10, stroke="#fff")

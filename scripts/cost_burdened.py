@@ -20,7 +20,10 @@ def cost_burdened():
         st.markdown('')
         st.markdown('As we can see, the distribution of cost burdened status is slightly skewed.')
     with row1_2:
-        st.write(histogram('COST_BURDALL', 'COST_BURDALL', False))
+        st.write(histogram('COST_BURDALL', 'COST_BURDALL', False).properties(
+        width=280,
+        height=280
+    ))
 
     #new row
     row2_spacer1, row2_1, row2_spacer2 = st.columns(

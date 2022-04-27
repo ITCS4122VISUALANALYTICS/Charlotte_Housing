@@ -95,20 +95,17 @@ Lookup the data type of a given feature
         str: 'C' or 'N' (Character or Numeric)
 ''' 
 def get_datatype(feat):
-    t = ''
     try:
         if feat == 'HFL': # accounting for an error in the data dictionary
             return 'C'
         if feat == 'Cluster':
             return 'C'
         if feat not in CLT:
-            t = data_dict.loc['NAME', feat]['NAME'][0]
+            return data_dict.loc['NAME', feat]['NAME'][0]
         else:
-            return 'C'
+            return CLT_TYPES[feat]
     except: 
         return '***LOOK UP FAILED***'
-    else:
-        return t
 
 '''
 Load needed datasets for streamlit app
@@ -119,18 +116,32 @@ Load needed datasets for streamlit app
 '''
 @st.cache
 def load_data():
-    df = pd.read_csv(PATH_DF_CLEAN_CLUSTERS).drop(columns = 'Unnamed: 0')
+    df = pd.read_csv(PATH_DF_CLEAN_STRINGS).drop(columns = 'Unnamed: 0')
     cost_burd_results = pd.read_csv(PATH_COST_BURD_RESULTS).drop(columns = 'Unnamed: 0')
     return df, cost_burd_results
 
 #so st.cache doesnt break when being called outside of streamlit app
 def load_data_nb():
-    df = pd.read_csv(PATH_DF_CLEAN_CLUSTERS).drop(columns = 'Unnamed: 0')
+    df = pd.read_csv(PATH_DF_CLEAN_STRINGS).drop(columns = 'Unnamed: 0')
     cost_burd_results = pd.read_csv(PATH_COST_BURD_RESULTS).drop(columns = 'Unnamed: 0')
     return df, cost_burd_results
 
-def generate_inverse_dictionary():
+'''
+Generate dictionary containing Column Acronym: Definition Pairs.
+
+    Params:
+        invert: boolean value to determine where to invert pairs or not
+
+    Returns:
+        dictionary
+'''
+def generate_dictionary(invert):
     pairs = {}
-    for i in range(len(df.columns)):
-        pairs[get_feat(df.columns[i])] = df.columns[i]
+    if invert:  
+        for i in range(len(df.columns)):
+            pairs[get_feat(df.columns[i])] = df.columns[i]
+    else:
+        for i in range(len(df.columns)):
+            pairs[df.columns[i]] = get_feat(df.columns[i])
     return pairs
+
