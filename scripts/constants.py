@@ -69,3 +69,5 @@ PUMA_CODES = {
 PATH_DF_CLEAN_CLUSTERS = 'data_sets/df_cleaned_clusters.csv'
 
 PATH_COST_BURD_RESULTS = 'data_sets/cost_burd_results.csv'
+
+PATH_DATA_DICTIONARY = 'data_sets/data_dictionary.csv'

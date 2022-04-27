@@ -9,7 +9,11 @@ df, cost_burd_results = load_data()
 
 #Basic histogram for exploration
 def histogram(column, target, bin_feat):
-    types = [DATA_TYPES_ALTAIR[get_datatype(x)] for x in [column, target]]
+    try:
+        types = [DATA_TYPES_ALTAIR[get_datatype(x)] for x in [column, target]]
+    except:
+        inv_dic = generate_inverse_dictionary()
+        types = [DATA_TYPES_ALTAIR[get_datatype(inv_dic[x])] for x in [column, target]]
     hist = alt.Chart(df).mark_bar().encode(
         alt.X(column, type = types[0], bin=bin_feat),
         alt.Y('count()'),

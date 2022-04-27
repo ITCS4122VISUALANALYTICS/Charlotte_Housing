@@ -4,9 +4,11 @@ from scripts.constants import *
 
 #read data dictionary
 try:
-    data_dict = pd.read_csv('data_sets/data_dictionary.csv')
+    data_dict = pd.read_csv(PATH_DATA_DICTIONARY)
 except:
-    data_dict = pd.read_csv('../data_sets/data_dictionary.csv')
+    data_dict = pd.read_csv('../' + PATH_DATA_DICTIONARY)
+
+df = pd.read_csv(PATH_DF_CLEAN_CLUSTERS)
     
 #sort to optimize lookup performance
 data_dict = data_dict.sort_index() 
@@ -23,7 +25,12 @@ Look up the semantics of a feature name
 def get_feat(feat):
     try:
         if feat not in CLT:
-            desc = data_dict.loc['NAME', feat]['C'][0]
+            if feat == 'Cluster':
+                desc = 'Cluster'
+            elif feat == 'HHLANP':
+                desc = 'Household language'
+            else:
+                desc = data_dict.loc['NAME', feat]['C'][0]
         else:
             desc = CLT_FEAT[feat]
     except: 
@@ -63,6 +70,9 @@ Look up all values and their semantics of a feature
 '''
 def get_values(feat):
     try:
+        if feat == 'Cluster':
+            name = 'Cluster',
+            desc = 'Cluster'
         if feat not in CLT:
             name = data_dict.loc['NAME', feat]['C'][0]
             subset = data_dict.loc['VAL', feat]
@@ -112,3 +122,15 @@ def load_data():
     df = pd.read_csv(PATH_DF_CLEAN_CLUSTERS).drop(columns = 'Unnamed: 0')
     cost_burd_results = pd.read_csv(PATH_COST_BURD_RESULTS).drop(columns = 'Unnamed: 0')
     return df, cost_burd_results
+
+#so st.cache doesnt break when being called outside of streamlit app
+def load_data_nb():
+    df = pd.read_csv(PATH_DF_CLEAN_CLUSTERS).drop(columns = 'Unnamed: 0')
+    cost_burd_results = pd.read_csv(PATH_COST_BURD_RESULTS).drop(columns = 'Unnamed: 0')
+    return df, cost_burd_results
+
+def generate_inverse_dictionary():
+    pairs = {}
+    for i in range(len(df.columns)):
+        pairs[get_feat(df.columns[i])] = df.columns[i]
+    return pairs

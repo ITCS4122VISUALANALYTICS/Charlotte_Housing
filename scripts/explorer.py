@@ -28,7 +28,9 @@ def explorer():
         st.write(" ")
 
         #allow user to select a feature
+        #featureH = st.selectbox('Select Feature', [get_feat(x) for x in df.columns])
         featureH = st.selectbox('Select Feature', df.columns)
+        #colorH = st.selectbox('Select Color Encoding', [get_feat(x) for x in df.columns])
         colorH = st.selectbox('Select Color Encoding', df.columns)
     with row1_2:
         st.write('')
