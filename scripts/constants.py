@@ -92,4 +92,5 @@ PATH_DATA_DICTIONARY = 'data_sets/data_dictionary.csv'
 
 PATH_DF_CLEAN_STRINGS = 'data_sets/df_cleaned_STRINGS.csv'
 
+LIGHTGBM_SHAP_CB_PATH = 'data_sets/GBM_SHAP_COSTBURD.png'
 

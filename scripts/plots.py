@@ -43,3 +43,26 @@ def puma_polar(column):
     c1 = base.mark_arc(innerRadius=10, stroke="#fff")
 
     return c1
+
+def cost_burd_plot():
+    source = pd.read_csv(PATH_DF_CLEAN_CLUSTERS)
+    c1 = alt.Chart(source).mark_bar().encode(
+        alt.X("AMI:O", bin=False, axis=alt.Axis(title='Area Median Income')),
+        y='count()',
+        color = 'COST_BURDALL:N'
+    ).properties(height = 140)
+
+    c2 = alt.Chart(source).mark_bar().encode(
+        alt.X("AFF_OCC:O", bin=False, axis=alt.Axis(title='Affordability')),
+        y='count()',
+        color = 'COST_BURDALL:N'
+    ).properties(height = 140)
+
+    c3 = alt.Chart(source).mark_circle().encode(
+        alt.X('AMI:O', axis=alt.Axis(title='Area Median Income')),
+        alt.Y('AFF_OCC:O', axis=alt.Axis(title='Affordability')),
+        color = 'COST_BURDALL:N'
+    ).properties(height = 140)
+
+        
+    return (c1|c2|c3)

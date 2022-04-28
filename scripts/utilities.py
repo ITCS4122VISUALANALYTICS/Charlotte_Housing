@@ -7,8 +7,6 @@ try:
     data_dict = pd.read_csv(PATH_DATA_DICTIONARY)
 except:
     data_dict = pd.read_csv('../' + PATH_DATA_DICTIONARY)
-
-df = pd.read_csv(PATH_DF_CLEAN_CLUSTERS)
     
 #sort to optimize lookup performance
 data_dict = data_dict.sort_index() 
@@ -136,6 +134,7 @@ Generate dictionary containing Column Acronym: Definition Pairs.
         dictionary
 '''
 def generate_dictionary(invert):
+    df = pd.read_csv(PATH_DF_CLEAN_CLUSTERS)
     pairs = {}
     if invert:  
         for i in range(len(df.columns)):

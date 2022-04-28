@@ -1,0 +1,4 @@
+,Accuracy,AUC,Recall,Precision,F1,Kappa,MCC,model
+0,0.9564,0.9822,0.9545,0.9494,0.9517,0.912,0.9124,Logistic Regression
+1,0.9584,0.9822,0.9545,0.9494,0.9517,0.912,0.9124,LightGBM
+2,0.9166,0.9145,0.8947,0.9193,0.9062,0.8311,0.8323,Decision Tree

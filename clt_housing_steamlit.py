@@ -1,10 +1,13 @@
 import streamlit as st
+st.set_page_config(layout='wide')
+
 from streamlit_option_menu import option_menu
 from scripts.utilities import *
 from scripts.home import *
 from scripts.explorer import * 
 from scripts.cost_burdened import * 
     
+
 with st.sidebar:
     selected = option_menu(
         menu_title = None,
