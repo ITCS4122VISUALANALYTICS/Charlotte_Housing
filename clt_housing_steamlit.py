@@ -6,6 +6,7 @@ from scripts.utilities import *
 from scripts.home import *
 from scripts.explorer import * 
 from scripts.cost_burdened import * 
+from scripts.about_data import *
     
 
 with st.sidebar:
@@ -23,4 +24,4 @@ if selected == 'Cost Burdened Analysis':
 if selected ==  'PUMA Area Code Analysis':
     pass #in progress
 if selected ==  'About the Data':
-    pass #in progress
+    about_data()
