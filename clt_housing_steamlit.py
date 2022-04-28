@@ -11,7 +11,7 @@ from scripts.cost_burdened import *
 with st.sidebar:
     selected = option_menu(
         menu_title = None,
-        options = ['Home', 'Data Explorer', 'Cost Burdened Analysis', 'Affordability Analysis', 'Rent Analysis', 'About the Data']
+        options = ['Home', 'Data Explorer', 'Cost Burdened Analysis', 'PUMA Area Code Analysis', 'About the Data']
     )
 
 if selected == 'Home':
@@ -20,9 +20,7 @@ if selected == 'Data Explorer':
     explorer()
 if selected == 'Cost Burdened Analysis':
     cost_burdened() #in progress
-if selected ==  'Affordability Analysis':
+if selected ==  'PUMA Area Code Analysis':
     pass #in progress
-if selected ==  'Rent Analysis':
-    pass #in progress 
 if selected ==  'About the Data':
     pass #in progress

@@ -33,7 +33,7 @@ def cost_burdened():
     )
 
     with row4_1:
-        st.markdown('Our initial models clearly overfitted as all of them performed 100% accurately. After inspecting the feature importance, we could see that the **Cost-Burdened** variable can be derived directly from **Gross Rent as Perecentage of Income (GRPIP).** And also, **GRPIP** is directly derived from two other features, **Monthly Rent and Household Income**.')
+        st.markdown('Our initial models clearly **overfitted** as all of them performed 100% accurately. After inspecting the feature importance, we could see that the **Cost-Burdened** variable can be derived directly from **Gross Rent as Perecentage of Income (GRPIP).** And also, **GRPIP** is directly derived from two other features, **Monthly Rent and Household Income**.')
         st.markdown('')
         st.markdown('We can verify this with the plots below. As you can see, there is a distinct cut off between Cost-Burdened status. We will drop these features since it is evidence of multi-collinearity and so that the model does not overfit again.')
     
@@ -67,7 +67,7 @@ def cost_burdened():
     )
 
     with row2_1:
-        st.markdown("It's obvious that Cost-Burdened status can easily be derived from other economic factors. While this is valuable, we want to see what other properties of households contribute as well.")
+        st.markdown("It's obvious that Cost-Burdened status can easily be derived from other economic factors. While this is valuable, we want to see what other properties of households contribute as well. So we went ahead and dropped all other economic features before modeling again.")
                 
     #new row
     row3_spacer1, row3_1, row3_spacer2, row3_2, row3_spacer3 = st.columns(
@@ -79,5 +79,12 @@ def cost_burdened():
         st.markdown('I selected the top features across all the models implemented. They were as follows: **Tenure Type, Number of People in the Household, Family Type, Limited English Speaking Household, Electricity Cost, Number of Vehicles, and Sample Weight**')
     with row3_2:
         st.write('LightGBM SHAP Values')
-        st.image(LIGHTGBM_SHAP_CB_PATH, width = 300)
+        st.image(LIGHTGBM_SHAP_CB_PATH, width = 350)
 
+        #new row
+    row7_spacer1, row7_1, row7_spacer2 = st.columns(
+        (.1, 2.2, .1)
+    )
+
+    with row7_1:
+        st.markdown('When exploring these features **individually**, it is hard to see any clear correlation with cost-burdened status or with each other.')
