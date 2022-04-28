@@ -20,6 +20,6 @@ if selected == 'Home':
 if selected == 'Data Explorer':
     explorer()
 if selected == 'Cost Burdened Analysis':
-    cost_burdened() #in progress
+    cost_burdened()
 if selected ==  'About the Data':
     about_data()
