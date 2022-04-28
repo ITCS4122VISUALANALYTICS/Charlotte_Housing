@@ -7,14 +7,14 @@ def home():
     image = Image.open('data_sets/flag.png')
     
     #new row
-    row0_spacer1, row0_1, row0_spacer2= st.columns(
+    rowi_spacer1, rowi_1, rowi_spacer2= st.columns(
         (.1, 3.2, .1)
     )
-    with row0_spacer1:
+    with rowi_spacer1:
         st.write("")
-    with row0_1:
+    with rowi_1:
         st.image(image, width = 120)
-    with row0_spacer2:
+    with rowi_spacer2:
         st.write("")
 
     #new row
@@ -30,9 +30,9 @@ def home():
         (.1, 3.2, .1)
     )
     with row2_1:
-        st.markdown('An interactive dashboard exploring the state of housing in Charlotte with regards to socio-economic status.')
+        st.markdown('An interactive dashboard exploring the state of households in Charlotte with regards to socio-economic status.')
         st.markdown('')
-        st.markdown('Our goal is to discover what factors contribute to affordability and cost-burdened status of Charlotte households, as well as uncovering insights about general distributions of household properties.')    
+        st.markdown('Our goal is to discover what factors contribute to cost-burdened status of Charlotte households, as well as uncovering insights about general distributions of household properties.')    
         st.markdown('')
         st.markdown('Our data comes from the [2018 American Community Survey](https://www.census.gov/programs-surveys/acs), a yearly survey of American households. The City of Charlotte created a subset for the Charlotte-Mecklenburg area and uploaded it to the [Charlotte Data Portal](https://data.charlottenc.gov/datasets/housing-demand-and-availability-by-income/explore).')
         st.markdown('')

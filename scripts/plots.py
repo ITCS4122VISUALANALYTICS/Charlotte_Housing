@@ -5,7 +5,7 @@ from scripts.utilities import *
 from scripts.constants import *
 
 #load data
-df, cost_burd_results = load_data()
+df, cost_burd_results, df_concat = load_data()
 
 #Basic histogram for exploration
 def histogram(column, target, bin_feat):
@@ -50,19 +50,48 @@ def cost_burd_plot():
         alt.X("AMI:O", bin=False, axis=alt.Axis(title='Area Median Income')),
         y='count()',
         color = 'COST_BURDALL:N'
-    ).properties(height = 140)
+    ).properties(height = 200, width = 250)
 
     c2 = alt.Chart(source).mark_bar().encode(
         alt.X("AFF_OCC:O", bin=False, axis=alt.Axis(title='Affordability')),
         y='count()',
         color = 'COST_BURDALL:N'
-    ).properties(height = 140)
+    ).properties(height = 200, width = 250)
 
     c3 = alt.Chart(source).mark_circle().encode(
         alt.X('AMI:O', axis=alt.Axis(title='Area Median Income')),
         alt.Y('AFF_OCC:O', axis=alt.Axis(title='Affordability')),
         color = 'COST_BURDALL:N'
-    ).properties(height = 140)
+    ).properties(height = 200, width = 250)
 
         
     return (c1|c2|c3)
+
+def parallel_coord():
+    fold = list(df_concat.columns[0:5])
+    ttip = list(df_concat.columns[6:])
+    c1 = alt.Chart(df_concat).transform_window(
+        index='count()'
+    ).transform_fold(
+        fold
+    ).mark_line().encode(
+        x= alt.X('key:N', title = 'Features'),
+        y='value:Q',
+        color=alt.Color('COST_BURDALL', scale = alt.Scale(scheme = 'cividis')),
+        detail='index:N',
+        opacity=alt.value(0.5),
+        tooltip = ['key:N', 'value:Q'] + ttip
+    ).properties(width=600).interactive()
+
+    c2 = alt.Chart(df_concat).transform_window(
+        index='count()'
+    ).transform_fold(
+        fold
+    ).mark_circle().encode(
+        x= alt.X('key:N', title = 'Features'),
+        y = alt.Y('value:Q'),
+        color=alt.Color('COST_BURDALL', scale = alt.Scale(scheme = 'cividis')),
+        tooltip = ['key:N', 'value:Q'] + ttip
+    ).properties(width = 200).interactive()
+
+    return c1|c2

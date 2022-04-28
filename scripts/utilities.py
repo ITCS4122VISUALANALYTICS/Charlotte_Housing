@@ -116,13 +116,15 @@ Load needed datasets for streamlit app
 def load_data():
     df = pd.read_csv(PATH_DF_CLEAN_STRINGS).drop(columns = 'Unnamed: 0')
     cost_burd_results = pd.read_csv(PATH_COST_BURD_RESULTS).drop(columns = 'Unnamed: 0')
-    return df, cost_burd_results
+    df_concat = pd.read_csv(PATH_DF_CONCAT).drop(columns = 'Unnamed: 0')
+    return df, cost_burd_results, df_concat
 
 #so st.cache doesnt break when being called outside of streamlit app
 def load_data_nb():
     df = pd.read_csv(PATH_DF_CLEAN_STRINGS).drop(columns = 'Unnamed: 0')
     cost_burd_results = pd.read_csv(PATH_COST_BURD_RESULTS).drop(columns = 'Unnamed: 0')
-    return df, cost_burd_results
+    df_concat = pd.read_csv(PATH_DF_CONCAT).drop(columns = 'Unnamed: 0')
+    return df, cost_burd_results, df_concat
 
 '''
 Generate dictionary containing Column Acronym: Definition Pairs.

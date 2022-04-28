@@ -2,10 +2,25 @@ import streamlit as st
 from scripts.utilities import *
 from scripts.constants import *
 from scripts.plots import *
+from PIL import Image 
 
-df, cost_burd_results = load_data()
+
+df, cost_burd_results, df_concat = load_data()
 
 def explorer():
+    image = Image.open('data_sets/flag.png')
+    
+    #new row
+    rowi_spacer1, rowi_1, rowi_spacer2= st.columns(
+        (.1, 3.2, .1)
+    )
+    with rowi_spacer1:
+        st.write("")
+    with rowi_1:
+        st.image(image, width = 120)
+    with rowi_spacer2:
+        st.write("")
+
     #new row    
     row0_spacer1, row0_1, row0_spacer2 = st.columns(
         (.1, 3.2, .1)
